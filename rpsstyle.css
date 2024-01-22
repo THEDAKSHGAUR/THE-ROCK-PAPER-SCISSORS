@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.heading{
+    margin: auto;
+    background-color: mediumseagreen;
+    text-align: center;
+    height:2rem;
+    position: relative;
+    padding:20px;
+  
+}
+
+.choose{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    height:50vh;
+    padding: 30px;
+    width:70vh;
+    align-content: center;
+    margin-left: 230px;
+    gap:40px;
+    
+
+}
+
+.choices{
+    height:40vmin;
+    width:40vmin;
+    object-fit: cover;
+}
+
+#scissors{
+    height: 270px;
+    width: 225px;;
+}
+.choice:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+#paper{
+    margin-top: 45px;
+}
+#scissors{
+    margin-top:60px;
+}
+.scoreboard{
+    text-align: center;
+    display: flex;
+    /* padding: 50px; */
+    margin-top:0;
+    background-color: rgb(123, 212, 14);
+    height: 10vmin;
+
+}
+.score{
+    height:20vmin;
+    width:25vmin;
+    margin-top: 30px;
+    font-size:larger;
+    
+}
+#scorecard{
+    display: flex;
+    margin-left: 500px;
+    gap:60px;
+}
+.msg-container{
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 50%;
+    
+}
+#msg{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:bisque;
+    background-color: black;
+    display: inline;
+    border-radius: 1rem;
+    padding:1rem;
+}
+.score{
+    margin-top: 0;
+}
+
+/* .reload{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 1rem;
+    border:0;
+    height: 63px;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    
+}
+.reload:hover{
+    opacity: 0.5;
+    cursor: pointer;
+} */

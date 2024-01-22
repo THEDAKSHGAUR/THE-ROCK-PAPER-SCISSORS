@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the rock paper scissors</title>
+    <link rel="stylesheet" href="rpsstyle.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="h1">THE ROCK PAPER SCISSORS</h1>
+    </div>
+    <div class="choose">
+        <div class="choice"id="rock"><img src="rock.jpeg" alt="rock"></div>
+        <div class="choice"id="paper"><img src="paper.png" alt="paper"></div>
+        <div class="choice"id="scissors"><img src="scissors.png" alt="scissors"></div>
+    </div>
+    <script src="logic.js"></script>
+    <div class="scoreboard">
+        <div id="scorecard">
+            <div class="score">
+                <p id="userscore">0</p>
+                <p>your score</p>
+            </div>
+            <div class="score">
+                <p id="compscore">0</p>
+                <p>computer score</p>
+            </div>
+        </div>
+       
+        
+        
+    </div>
+    <div class="msg-container">
+        <p id="msg">It's your turn</p>
+        <!-- <button class="reload">ReLoad The Game</button> -->
+        <!-- to understand this please refer rpsstyle.css line91 -->
+    </div>
+
+    <script src="rpslogic.js"></script>
+</body>
+</html>
