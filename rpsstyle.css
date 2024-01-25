@@ -87,7 +87,8 @@
 .score{
     margin-top: 0;
 }
-
+/* This was a style for creating a button please contribute to get it fixed as the button is not making 
+the page to be reloaded. */
 /* .reload{
     color: aliceblue;
     background-color: black;
